@@ -1,0 +1,196 @@
+/*reset*/
+*{ 
+    box-sizing: border-box;
+}
+.EQUI{ 
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.Nosotros{
+    margin-top: 30px;
+    margin-left: 10px;
+ }
+ .uno{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #ECE0D9;
+    z-index:2;
+  }
+  .uno nav ul{ 
+    display: flex;
+    column-gap: 15px;
+    margin-top: 25px;
+  }
+  .uno nav ul li {
+    list-style: none;
+    color: rgb(110, 65, 25);
+
+
+   }
+   .logo{ 
+    color: #8D4F2A;
+    font-size: 50px;
+    font-weight: bolder;
+ }
+   .logo2{ 
+    margin-left: 10px;
+
+   }
+   
+ 
+    .card-body{
+      color: rgb(255, 255, 255);
+      background-color: rgb(119, 71, 37);
+     }
+     .card-title{
+      color: azure;
+      font-size: 30px;
+     }
+     .card-text{
+      color: azure;
+      }
+      .btn{
+        color: rgb(82, 38, 6);
+        background-color: rgb(254, 254, 254);
+      }
+      .card{ 
+        margin-bottom: 20px;
+        margin:12px;
+      }
+      .nav-link{ 
+        color: #8D4F2A;
+      }
+      .carousel-inner{ 
+        margin-bottom: 45px;
+      }
+    footer{
+      margin-top: 200px;
+     }
+     .cont{ 
+      margin-top: 200px;
+     }
+     .grid{
+      display: grid;
+      grid-template-columns: auto ;
+      grid-template-rows: 2px 2px 2px;
+      grid-template-areas: "card card card";
+      
+      
+     }
+     .uno nav ul li:hover{
+    
+      transform: scale(0.9);
+      color: rgb(120, 66, 33);
+      
+   }
+   .fixed{
+   margin-left: 1100px;
+   margin-top: 100px;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+    }
+
+  
+    .contenedor{
+      position: sticky;
+      z-index: 2;
+      top: 0;
+      background-color: #ECE0D9;
+ 
+     }
+     .imput{
+      color: rgb(112, 79, 49);
+      }
+      .boton{
+        border-radius: 5px;
+        border:  #ECE0D9;
+        
+        background-color: #ECE0D9;
+        margin-top: 20px;
+
+        color:rgb(89, 60, 35) 
+         
+       
+        
+       }
+       .boton:hover{
+       color: rgb(255, 255, 255);
+       background-color: #8D4F2A;
+        }
+        .btn{        
+           border-radius: 5px;
+          border:  #ECE0D9;
+          
+          background-color: #ECE0D9;
+          margin-top: 20px;
+  
+          color:rgb(89, 60, 35) 
+           
+
+        }
+        .btn:hover{
+          color: rgb(255, 255, 255);
+          background-color: #8D4F2A;
+         }
+      .renglon{
+        margin-top: 17px;
+        border: none;
+        border-radius: 5px;
+        width: 500px;
+        height: 40px;
+        
+        
+       }
+       .text{
+        color: #8D4F2A;
+        margin-top: 40px;
+        }
+        .cel1{
+          display: none;
+         }
+         .cel2{
+          display:none;
+          }
+          .cel3{
+            display: none;
+           }
+           form{ 
+            width: 450px;
+            margin: auto;
+        }
+        input, textarea{ 
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        font-size: 15px;
+        
+        
+        
+        
+        }
+        .boton{ 
+            background-color:rgb(84, 31, 8) ;
+            color:rgb(238, 221, 208) ;
+            border: rgb(84, 31, 8);
+            padding: 10px;
+        }
+        .boton:hover{
+            color:rgb(255, 255, 255);
+            background-color: rgb(125, 78, 51);
+         }
+        .contacto{
+            color:rgb(84, 31, 8);
+            font-size: 20px;
+        
+         }
+         .p3{
+          color:rgb(84, 31, 8);
+          font-size:20px
+          
+       }
+      
+     
