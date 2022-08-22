@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header nav ul li{
+    list-style: none;
+
+    border-radius: 10px;
+    font-size: 20px;
+
+ }
+ header nav ul{ 
+    display: flex;
+    column-gap: 50px;
+    margin-top: 25px;
+    margin-right: 15px;
+ }
+ .logo{
+        color: #8D4F2A;
+        font-size: 50px;
+        font-weight: bolder;
+        margin-top: 15px;
+        
+ }
+ .text{
+            color: #8D4F2A;
+            margin-top: 40px;
+            }
+            .btn{        
+                border-radius: 5px;
+               border:  #ECE0D9;
+               
+               background-color: #ECE0D9;
+               margin-top: 20px;
+       
+               color:rgb(89, 60, 35) 
+                
+     
+             }
+             .btn:hover{
+               color: rgb(255, 255, 255);
+               background-color: #8D4F2A;
+              }
+              .renglon{
+                margin-top: 17px;
+                border: none;
+                border-radius: 5px;
+                width: 500px;
+                height: 40px;
+                
+                
+               }
+               .imput{
+                color: rgb(112, 79, 49);
+                }
+                .boton{
+                  border-radius: 5px;
+                  border:  #ECE0D9;
+                  
+                  background-color: #ECE0D9;
+                  margin-top: 20px;
+          
+                  color:rgb(89, 60, 35) 
+                   
+                 
+                  
+                 }
+                 .boton:hover{
+                 color: rgb(255, 255, 255);
+                 background-color: #8D4F2A;
+                  }
+                 
+                form{ 
+                    width: 450px;
+                    margin: auto;
+                }
+                input, textarea{ 
+                width: 100%;
+                margin-bottom: 20px;
+                padding: 7px;
+                font-size: 15px;
+                
+                
+                
+                
+                }
+                .boton{ 
+                    background-color:rgb(84, 31, 8) ;
+                    color:rgb(238, 221, 208) ;
+                    border: rgb(84, 31, 8);
+                    padding: 10px;
+                }
+                .boton:hover{
+                    color:rgb(255, 255, 255);
+                    background-color: rgb(125, 78, 51);
+                 }
+                .contacto{
+                    color:rgb(84, 31, 8);
+                    font-size: 20px;
+                
+                 }
+                 .p3{
+                    color:rgb(84, 31, 8);
+                    font-size:20px
+                    
+                 }
+                 .compuf{
+                  display: none;
+                  }
+                  .compwhat{ 
+                    display: none;
+                  }
+                  .compu{ 
+                    display: none;
+                  }
+                 
+                
+ main{
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows:auto;
+    grid-template-areas: "cel1"
+                         "form"
+                         "suscripcion"
+                         ;
+    justify-content: center;                  
+   
+  } 
+  .cel1{
+    grid-area:cel1;
+   }
+   form{
+    grid-area:form;
+    }
+    .suscripcion{ 
+      grid-area:suscripcion;
+    }
+    footer{
+      text-align: center;
+
+     }
+     .cel3{ 
+   margin-left: 410px;
+     }
+     @media screen and (min-width:600px){
+      body{
+        background-color: rgb(146, 146, 207);
+       }
+       main{
+        display: grid;
+        grid-template-columns:auto;
+        grid-template-rows:auto;
+        grid-template-areas: "compu"
+                             "form"
+                             "suscripcion"
+                             ;
+        justify-content: center;                  
+       
+      } 
+       .compu{ 
+        grid-area: compu;
+       }
+       form{
+        grid-area:form;
+        }
+        .suscripcion{ 
+          grid-area:suscripcion;
+        }
+        .compuf{
+          text-align: center;
+         }
+       
+         
+         .compuf{
+          display: block;
+          }
+          .compwhat{
+            display: block;
+           }
+           .compu{ 
+            display: block;
+           }
+           .cel3{ 
+            display:none;
+           }
+           .cel1{
+            display:none;
+            }
+            .cel2{
+              display:none;
+             }
+             .compwhat{
+              margin-left: 1300px;
+              }
+              header{ 
+                flex-direction: row;
+                justify-content: space-between;
+            
+              }
+
+              @media screen and (min-width:1024px){
+               body{
+                background-color: aqua;
+                } 
+              }
+     }
+   

@@ -1,0 +1,144 @@
+/*rset*/
+*{ 
+    box-sizing: border-box;
+}
+.EQUI{ 
+    display: none;
+}
+.Nosotros{
+    margin-top: 30px;
+    margin-left: 10px;
+ }
+
+h1{ 
+    color: #8D4F2A;
+    font-size: 50px;
+    font-weight: bolder;
+ }
+ .fixed{
+    display:none;
+  }
+  .compu{ 
+    display: none;
+  }
+  .Nosotros2{ 
+    display: none;
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav ul li{
+      list-style: none;
+  
+      font-size: 20px;
+  
+   }
+   header nav ul{ 
+      display: flex;
+      column-gap: 50px;
+      margin-top: 10px;
+      margin-right: 15px;
+   }
+
+   main{ 
+    display: grid;
+    grid-template-columns:auto ;
+    grid-template-rows:auto ;
+    grid-template-areas: "celu"
+                         "nosotros1"
+                         ;
+   justify-content: center;
+   }
+
+  .celu{
+    grid-area: celu;
+    margin-top: 30px;
+   }
+   .nosotros1{
+    grid-area:nosotros1;
+    }
+    .celuw{ 
+      margin-left: 390px;
+    }
+    footer{ 
+      text-align: center;
+    }
+    @media screen and (min-width:600px){
+      body{ 
+        background-color: aqua;
+      }
+      main{ 
+        display: grid;
+        grid-template-columns:auto ;
+        grid-template-rows:auto ;
+        grid-template-areas: "EQUI"
+                             "Nosotros2"
+                             ;
+       justify-content: center;
+       }
+       .EQUI{ 
+      grid-area: EQUI;
+       }
+      .Nosotros2{ 
+        grid-area: Nosotros2;
+      }
+      .celu{
+        grid-area: celu;
+        margin-top: 30px;
+        display:none
+       }
+       .nosotros1{
+        grid-area:nosotros1;
+        display:none
+        }
+        .celuw{ 
+          margin-left: 850px;
+          display: none;
+        }
+        footer{ 
+          text-align: center;
+          display:none
+        }
+        .fixed{ 
+          margin-left: 1300px;
+          display: block;
+       
+        }
+        .compu{
+          display: block;
+         }
+         footer{
+          display: block;
+          }
+          .cel{
+            display: none;
+           }
+           .EQUI{
+            display: block;
+            }
+            .Nosotros2{
+              display: block;
+              margin-left: 15px;
+              font-size: 20px;
+             }
+          
+              header{ 
+                flex-direction: row;
+                justify-content: space-between;
+            
+              }
+              @media screen and (min-width:1024px){
+                body{ 
+                  background-color: aquamarine;
+                }
+              }
+              
+     }
+   
+ 
+   
+
+  
+   
